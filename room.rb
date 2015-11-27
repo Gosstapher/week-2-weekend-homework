@@ -5,3 +5,7 @@ class Room
     @occupant = occupant
   end
 end
+
+class Double_Room
+  
+end
