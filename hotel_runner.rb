@@ -5,8 +5,8 @@ require_relative "people"
 
 # create a new hotel
 
-tiny_hotel = Hotel.new("B & B", 1)
-big_hotel = Hotel.new("Guest House Paradiso", 20)
+tiny_hotel = Hotel.new("B & B")
+big_hotel = Hotel.new("Guest House Paradiso")
 
 # create a room
 # big_room = Double_Room.new("Room 2")
