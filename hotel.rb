@@ -6,11 +6,21 @@ class Hotel
   def initialize (hotel_name, number_of_rooms)
     @name = hotel_name
     @room_count = number_of_rooms
-    @rooms = Array.new(number_of_rooms)
-    add_rooms(@room_count)
+    # @rooms = Array.new(number_of_rooms)
+    @rooms = []
+    # add_rooms(@room_count)
   end
 
-  def add_rooms (number_of_rooms)
-    @rooms.fill { |i| Room.new(i+1)}
-  end
+  # def add_room (number_of_rooms)
+  #   @rooms.fill { |i| Room.new(i+1)}
+  # end
+
+
+
+  def add_room(room)
+    # @rooms << room
+    @rooms << {room.name => room}
+  end 
+
+
 end
