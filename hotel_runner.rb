@@ -38,4 +38,32 @@ person_13 = People.new("Hector")
 person_14 = People.new("Joni")
 person_15 = People.new("Richard")
 
+# allow guests to check into rooms
+# make sure no double booking occurs
+
+
+#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 binding.pry;''
